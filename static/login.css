@@ -1,0 +1,31 @@
+/* login.css */
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('../static/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    max-width: 750px;
+    margin: auto;
+}
+
+.wrap_header {
+    background-color: transparent;
+}
+.title {
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+
+.help {
+    color: #404040;
+}

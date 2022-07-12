@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Webpage Title -->
+    <title>Detail | Beach Festival</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+    <meta property="og:title" content="Beach Festival - 올 여름 우리 바다와 함께"/>
+    <meta property="og:description" content="무더운 여름철 한국의 모든 해변을 쉽게 찾고, 먼저 방문한 사람들의 평가도 한 눈에 볼 수 있는 웹사이트입니다."/>
+    <meta property="og:image" content="{{ url_for('static', filename='ogimg.png') }}"/>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- Font Awesome CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="{{ url_for('static', filename='reset.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="{{ url_for('static', filename='common.js') }}"></script>
+</head>
+<body>
+    <h1>Beach Festival :: detail.html</h1>
+</body>
+</html>
